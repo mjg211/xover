@@ -1,0 +1,16 @@
+Package: xover
+Type: Package
+Title: Design and analysis of cross-over clinical trials
+Version: 0.1.0
+Authors@R: person("Michael", "Grayling",
+                  email = "michael.grayling@mrc-bsu.cam.ac.uk",
+                  role = c("aut", "cre"))
+Description: This package provides a suite of functions for designing
+    analysing the results of cross-over clinical trials.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Enhances: crossdes, Crossover
+Date: 2018-08-05
+Imports: dplyr, Epi, gee, ggplot2, ggthemes, ggridges, lme4, tibble
+RoxygenNote: 6.1.0
