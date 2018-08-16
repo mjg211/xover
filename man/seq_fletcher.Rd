@@ -4,8 +4,8 @@
 \alias{seq_fletcher}
 \title{Fletcher (1987) cross-over design specification}
 \usage{
-seq_fletcher(D = 6, selection = 1, labels = 0:(D - 1),
-  as_matrix = T, summary = T)
+seq_fletcher(D = 6, selection = 1, labels = 0:(D - 1), as_matrix = T,
+  summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be either four, six, eight, or nine.

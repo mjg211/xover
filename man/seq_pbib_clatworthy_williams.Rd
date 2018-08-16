@@ -4,8 +4,8 @@
 \alias{seq_pbib_clatworthy_williams}
 \title{Clatworthy-Williams cross-over design specification}
 \usage{
-seq_pbib_clatworthy_williams(williams_D = 3, type = "R",
-  selection = 42, labels, as_matrix = T, summary = T)
+seq_pbib_clatworthy_williams(williams_D = 3, type = "R", selection = 42,
+  labels, as_matrix = T, summary = T)
 }
 \arguments{
 \item{type}{A \code{\link[base]{character}} string indicating which type of

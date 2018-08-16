@@ -5,8 +5,7 @@
 \title{Analyse a continuous outcome in a cross-over dataset}
 \usage{
 an_cont(data, outcome, method = "lmm", alternative = "two_sided",
-  complete_case = T, conf_level = 0.95, carryover = F, summary = T,
-  ...)
+  complete_case = T, conf_level = 0.95, carryover = F, summary = T, ...)
 }
 \arguments{
 \item{data}{A \code{\link[tibble]{tibble}} of class \code{xover_data}.}

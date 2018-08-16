@@ -4,8 +4,8 @@
 \alias{seq_iqbal_jones}
 \title{Iqbal and Jones (1994) cross-over design specification}
 \usage{
-seq_iqbal_jones(D = 3, selection = 1, labels = 0:(D - 1),
-  as_matrix = T, summary = T)
+seq_iqbal_jones(D = 3, selection = 1, labels = 0:(D - 1), as_matrix = T,
+  summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be an integer between three and ten

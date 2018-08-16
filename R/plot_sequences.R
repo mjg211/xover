@@ -27,15 +27,15 @@
 #  }
 #}
 
-plot   <- ggplot2::ggplot(data = sequences,
-                          ggplot2::aes(x = Period, y = `Sequence Index`)) +
-          ggplot2::geom_label(ggplot2::aes(label = Treatment, fill = Treatment),
-                              colour = "white", na.rm = T) +
-          ggplot2::ylab("Sequence") +
-          theme_xover() + ggplot2::theme(legend.position = "none") +
-          ggthemes::scale_fill_ptol()
-if (max_seq_index > 20) {
-  plot <- plot + ggplot2::facet_wrap(~facet_factor, scales = "free_y")
-}
-(plot)
+#plot   <- ggplot2::ggplot(data = sequences,
+#                          ggplot2::aes(x = Period, y = `Sequence Index`)) +
+#          ggplot2::geom_label(ggplot2::aes(label = Treatment, fill = Treatment),
+#                              colour = "white", na.rm = T) +
+#          ggplot2::ylab("Sequence") +
+#          theme_xover() + ggplot2::theme(legend.position = "none") +
+#          ggthemes::scale_fill_ptol()
+#if (max_seq_index > 20) {
+#  plot <- plot + ggplot2::facet_wrap(~facet_factor, scales = "free_y")
+#}
+#(plot)
 

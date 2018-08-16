@@ -143,6 +143,12 @@ an_bin <- function(data, outcome, method = "glmm", alternative = "two_sided",
     warning("carryover has been changed from default but will not be used",
             " based on the choice of method.")
   }
+  if (!requireNamespace("elrm", quietly = T)) {
+    stop("Package \"elrm\" is needed for the exact version of conditional ",
+         "logistic regression. Please install it locally by first downloading ",
+         "it from https://cran.r-project.org/src/contrib/Archive/elrm/.",
+         call. = F)
+  }
 
   #### Print summary ###########################################################
 

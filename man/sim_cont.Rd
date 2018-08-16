@@ -4,9 +4,9 @@
 \alias{sim_cont}
 \title{Simulate continuous outcome data from a cross-over trial}
 \usage{
-sim_cont(sequences, n = 1, replicates = 1000, intercept, period,
-  treatment, carryover, subject, sigma_b = 1, sigma_e = 1,
-  random = T, seed = Sys.time(), summary = T)
+sim_cont(sequences, n = 1, replicates = 1000, intercept, period, treatment,
+  carryover, subject, sigma_b = 1, sigma_e = 1, random = T,
+  seed = Sys.time(), summary = T)
 }
 \arguments{
 \item{sequences}{An object of class \code{xover_seq}, describing the

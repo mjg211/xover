@@ -4,8 +4,7 @@
 \alias{seq_patterson_lucas}
 \title{Patterson and Lucas (1962) cross-over design specification}
 \usage{
-seq_patterson_lucas(selection = 1, labels, as_matrix = T,
-  summary = T)
+seq_patterson_lucas(selection = 1, labels, as_matrix = T, summary = T)
 }
 \arguments{
 \item{selection}{A single \code{\link[base]{numeric}} integer indicating
