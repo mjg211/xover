@@ -8,7 +8,7 @@ output:
 
 # xover
 
-...
+Coming soon!
 
 ## Installation
 
@@ -20,5 +20,3 @@ devtools::install_github("mjg211/xover")
 ```
 
 ## Example
-
-...

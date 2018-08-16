@@ -31,9 +31,9 @@ Imports:
     iterpc,
     lme4,
     mvtnorm,
-    readr,
     tibble,
     tidyr
 Suggests:
-    elrm
+    elrm,
+    readr
 RoxygenNote: 6.1.0
