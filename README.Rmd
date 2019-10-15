@@ -1,14 +1,25 @@
 ---
-output:
-  md_document:
-    variant: markdown_github
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# xover
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
-Coming soon!
+```{r, echo = F}
+suppressPackageStartupMessages(library(xover))
+```
+
+# xover <img src='man/figures/xover.png' align="right" height="139" />
+
+Coming soon...
 
 ## Installation
 
@@ -18,5 +29,3 @@ You can install \strong{xover} from github with:
 # install.packages("devtools")
 devtools::install_github("mjg211/xover")
 ```
-
-## Example

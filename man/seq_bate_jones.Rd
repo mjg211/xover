@@ -4,7 +4,8 @@
 \alias{seq_bate_jones}
 \title{Bate and Jones (2002) cross-over design specification}
 \usage{
-seq_bate_jones(D = 5, labels = 0:(D - 1), as_matrix = T, summary = T)
+seq_bate_jones(D = 5, labels = 0:(D - 1), as_matrix = T,
+  summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be either five or eight. Defaults to

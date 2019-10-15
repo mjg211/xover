@@ -13,15 +13,19 @@ respective purpose is as follows:
 }
 \details{
 \itemize{
-\item \code{an}: \emph{An}alysis of cross-over trial data;
+\item \code{an}: \strong{\emph{An}}alysis of cross-over trial data;
 \item \code{des}: Computation of the sample size required by a cross-over
-trials (i.e., cross-over trial \emph{des}ign);
+trials (i.e., cross-over trial \strong{\emph{des}}ign);
 \item \code{seq}: Specification of cross-over designs (i.e., sets of
-\emph{seq}uences);
-\item \code{sim}: \emph{Sim}ulation of data from a cross-over trial;
-\item \code{plot}: \emph{Plot}ting of cross-over trial data.
+\strong{\emph{seq}}uences);
+\item \code{sim}: \strong{\emph{Sim}}ulation of data from a cross-over trial;
+\item \code{plot}: \strong{\emph{Plot}}ting of cross-over trial data.
 }
 
-For a more detail description of the package's functionality, please see the
+For an overview of the package's functionality, a good place to start is
+\href{https://github.com/mjg211/xover/}{here}. For a more detailed
+description, please see the available vignette.
+
+more detail description of the package's functionality, please see the
 available vignette.
 }

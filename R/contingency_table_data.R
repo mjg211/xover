@@ -89,7 +89,6 @@ contingency_table_data <- function(data, outcome, summary = T) {
       contingency_table[K + 1, 3:(2^J + 2)] <-
         colSums(contingency_table[, 3:(2^J + 2)])
       contingency_table$total     <- rowSums(contingency_table[, -(1:2)])
-      contingency_table[3, 3:7]   <- colSums(contingency_table[1:2, 3:7])
     }
   }
   if (summary) {

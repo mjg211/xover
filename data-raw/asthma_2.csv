@@ -1,0 +1,27 @@
+pef,period,treatment,subject,sequence,sequence index,sex,baseline
+310,1,F,1,FS,1,male,290
+270,2,S,1,FS,1,male,270
+310,1,F,4,FS,1,female,300
+260,2,S,4,FS,1,female,270
+370,1,F,6,FS,1,female,250
+300,2,S,6,FS,1,female,210
+410,1,F,7,FS,1,male,390
+390,2,S,7,FS,1,male,390
+250,1,F,10,FS,1,male,250
+210,2,S,10,FS,1,male,240
+380,1,F,11,FS,1,female,365
+350,2,S,11,FS,1,female,380
+330,1,F,14,FS,1,male,190
+365,2,S,14,FS,1,male,260
+370,1,S,2,SF,2,male,350
+385,2,F,2,SF,2,male,345
+310,1,S,3,SF,2,male,350
+400,2,F,3,SF,2,male,370
+380,1,S,5,SF,2,female,350
+410,2,F,5,SF,2,female,360
+290,1,S,9,SF,2,male,280
+320,2,F,9,SF,2,male,290
+260,1,S,12,SF,2,male,270
+340,2,F,12,SF,2,male,310
+90,1,S,13,SF,2,male,220
+220,2,F,13,SF,2,male,220

@@ -4,7 +4,8 @@
 \alias{seq_berenblut}
 \title{Berenblut (1964) cross-over design specification}
 \usage{
-seq_berenblut(D = 3, labels = 0:(D - 1), as_matrix = T, summary = T)
+seq_berenblut(D = 3, labels = 0:(D - 1), as_matrix = T,
+  summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be either five or eight. Defaults to

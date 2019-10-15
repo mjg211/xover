@@ -4,8 +4,8 @@
 \alias{seq_quenouille}
 \title{Quenouille (1953) cross-over design specification}
 \usage{
-seq_quenouille(D = 3, selection = 1, labels = 0:(D - 1), as_matrix = T,
-  summary = T)
+seq_quenouille(D = 3, selection = 1, labels = 0:(D - 1),
+  as_matrix = T, summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be either three or four. Defaults to

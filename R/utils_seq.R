@@ -124,7 +124,7 @@ tibble_to_matrix <- function(sequences) {
   K                <- length(act_sequences)
   sequences        <- matrix(0, K, J)
   for (k in 1:K) {
-    sequences[k, ] <- strsplit(act_sequences[1, ])[[1]]
+    sequences[k, ] <- strsplit(act_sequences[k], split = "")[[1]]
   }
   return(sequences)
 }
@@ -147,6 +147,6 @@ transform_to_xover <- function(sequences, labels, as_matrix) {
                                                unique(act_sequences)),
                      `sequence index` = factor(rep(1:K, each = J), 1:K))
   }
-  class(sequences)    <- c(class(sequences), "xover_seq")
+  class(sequences)      <- c(class(sequences), "xover_seq")
   return(sequences)
 }

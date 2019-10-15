@@ -1,4 +1,4 @@
-FEV1,period,treatment,subject,sequence,sequence index,baseline
+fev1,period,treatment,subject,sequence,sequence index,baseline
 3500,1,F,1,FSP,2,3500
 3400,1,F,10,FSP,2,2800
 2300,1,F,17,FSP,2,2100

@@ -1,4 +1,4 @@
-PEFR,NAM,severity,period,treatment,subject,sequence,sequence index,naseline NAM,binary baseline NAM
+pefr,nam,severity,period,treatment,subject,sequence,sequence index,baseline nam,binary baseline nam
 138.333,100,0,1,B,3,BA,2,100,1
 NA,NA,1,1,B,4,BA,2,NA,NA
 121.905,100,1,1,A,7,AB,1,100,1

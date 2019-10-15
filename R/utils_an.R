@@ -648,6 +648,26 @@ ci_fixed_wald <- function(s, m, alpha) {
   return(c(Clow, Cupp))
 }
 
+an_bin_lc_f_ib_10 <- function(a, a_plus, t) {
+  return(exp(sum(lchoose(t, c(a[1], a_plus[1] - a[1], a[2], a_plus[3] - a[3],
+                              a_plus[2] - a[2], a[3]))))/
+           exp(sum(lchoose(c(t[1] + t[2], t[3] + t[5], t[4] + t[6]), a_plus))))
+}
+
+an_bin_lc_f_ib_20 <- function(a_st, a_plus, t) {
+  return(exp(sum(lchoose(t, c(a_st[1], a_plus[3] - a_st[3], a_st[2],
+                              a_plus[2] - a_st[2], a_st[3],
+                              a_plus[2] - a_st[2]))))/
+           exp(sum(lchoose(c(t[1] + t[6], t[3] + t[4], t[2] + t[5]), a_plus))))
+}
+
+an_bin_lc_f_ib_21 <- function(a_stst, a_plus, t) {
+  return(exp(sum(lchoose(t, c(a_plus[1] - a_stst[2], a_stst[1], a_stst[2],
+                              a_plus[2] - a_stst[1], a_stst[3],
+                              a_plus[3] - a_stst[3]))))/
+           exp(sum(lchoose(c(t[1] + t[3], t[2] + t[4], t[5] + t[6]), a_plus))))
+}
+
 #hux_table                                                   <-
 #  huxtable::add_colnames(huxtable::hux(contingency_table))
 #huxtable::top_border(hux_table)[1, ]                        <- 1

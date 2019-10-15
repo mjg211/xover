@@ -4,8 +4,8 @@
 \alias{seq_davis_hall}
 \title{Davis and Hall (1969) cross-over design specification}
 \usage{
-seq_davis_hall(D = 6, selection = 1, labels = 0:(D - 1), as_matrix = T,
-  summary = T)
+seq_davis_hall(D = 6, selection = 1, labels = 0:(D - 1),
+  as_matrix = T, summary = T)
 }
 \arguments{
 \item{D}{The number of treatments. Must be either six, seven, eight, or nine.

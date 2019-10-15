@@ -1,20 +1,17 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-xover
-=====
 
-…
+# xover <img src='man/figures/xover.png' align="right" height="139" />
 
-Installation
-------------
+Coming soon\!
 
-You can install from github with:
+## Installation
+
+You can install  from github with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("mjg211/xover")
 ```
 
-Example
--------
-
-…
+## Example
